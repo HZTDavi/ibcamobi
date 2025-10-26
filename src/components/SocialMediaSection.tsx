@@ -51,7 +51,7 @@ const SocialMediaSection = () => {
                 </div>
                 <h3 className="text-xl font-bold text-church-primary mb-2">{social.name}</h3>
                 <p className="text-gray-600 mb-4">{social.description}</p>
-                <Button className="bg-church-secondary hover:bg-church-accent text-white">
+                <Button className="bg-church-secondary hover:bg-church-accent text-white px-8 py-3">
                   Visitar
                 </Button>
               </a>

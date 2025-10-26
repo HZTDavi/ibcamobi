@@ -48,11 +48,11 @@ const EventsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {events.map((event, index) => (
             <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">
-              <CardContent className="p-8 flex flex-col items-center text-center">
+              <CardContent className="p-8 flex flex-col items-center text-center h-full">
                 <h3 className="text-xl font-bold text-church-primary mb-3">{event.title}</h3>
-                <p className="text-gray-600 mb-6">{event.description}</p>
+                <p className="text-gray-600 mb-6 flex-grow">{event.description}</p>
                 <Button 
-                  className="bg-church-secondary hover:bg-church-accent text-white mt-auto"
+                  className="bg-church-secondary hover:bg-church-accent text-white px-8 py-3"
                   onClick={() => handleWhatsAppRedirect(event.message)}
                 >
                   Mais Informações

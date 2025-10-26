@@ -40,15 +40,30 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {beliefs.map((belief, index) => (
-            <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 flex flex-col items-center text-center">
-                <div className="mb-4">{belief.icon}</div>
-                <p className="text-lg">{belief.text}</p>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="max-w-6xl mx-auto">
+          {/* Primeira linha - 3 cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+            {beliefs.slice(0, 3).map((belief, index) => (
+              <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">
+                <CardContent className="p-6 flex flex-col items-center text-center">
+                  <div className="mb-4">{belief.icon}</div>
+                  <p className="text-lg">{belief.text}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+          
+          {/* Segunda linha - 2 cards centralizados */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            {beliefs.slice(3, 5).map((belief, index) => (
+              <Card key={index + 3} className="border-0 shadow-md hover:shadow-lg transition-shadow">
+                <CardContent className="p-6 flex flex-col items-center text-center">
+                  <div className="mb-4">{belief.icon}</div>
+                  <p className="text-lg">{belief.text}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>

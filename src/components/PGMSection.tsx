@@ -53,12 +53,12 @@ const PGMSection = () => {
                   </CardTitle>
                   
                 </CardHeader>
-                <CardContent>
-                  <div className="space-y-2 mb-4">
+                <CardContent className="flex flex-col h-full">
+                  <div className="space-y-2 mb-4 flex-grow">
                     <p className="text-sm font-medium">{pgm.address}</p>
                     <p className="text-sm text-gray-600">CEP: {pgm.cep}</p>
                   </div>
-                  <Button onClick={() => handleWhatsAppContact(pgm.name)} className="w-full bg-green-600 hover:bg-green-700 text-white">
+                  <Button onClick={() => handleWhatsAppContact(pgm.name)} className="w-full bg-green-600 hover:bg-green-700 text-white py-3">
                     <Phone className="h-4 w-4 mr-2" />
                     Contatar via WhatsApp
                   </Button>
