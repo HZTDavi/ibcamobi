@@ -167,7 +167,7 @@ const MembershipSection = () => {
                         <FormMessage />
                       </FormItem>} />
                   
-                  <div className="pt-4 text-center">
+                  <div className="pt-4 flex justify-center">
                     <Button type="submit" className="bg-church-secondary hover:bg-church-accent text-white px-8 py-3 text-lg" disabled={loading}>
                       {loading ? "Enviando..." : "Enviar Solicitação"}
                     </Button>

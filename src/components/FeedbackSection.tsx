@@ -118,7 +118,7 @@ const FeedbackSection = () => {
                 )}
               />
               
-              <div className="pt-2 text-center">
+              <div className="pt-2 flex justify-center">
                 <Button 
                   type="submit"
                   className="bg-church-secondary hover:bg-church-accent text-white px-8 py-3 text-lg"

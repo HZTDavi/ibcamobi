@@ -16,20 +16,22 @@ const CoursesSection = () => {
           <div className="h-1 w-24 bg-church-secondary mx-auto mb-8"></div>
         </div>
 
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-lg mb-8">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-lg mb-8 text-center">
             Vários cursos são oferecidos pela igreja através do Projeto de Estudo Teológico (PET). 
             Entre em contato conosco para saber mais sobre os cursos disponíveis e os horários.
           </p>
           
-          <Button 
-            className="bg-church-secondary hover:bg-church-accent text-white px-6 py-3 rounded-md text-lg"
-            asChild
-          >
-            <a href="https://wa.me/5555997046505" target="_blank" rel="noopener noreferrer">
-              Entre em Contato
-            </a>
-          </Button>
+          <div className="flex justify-center">
+            <Button 
+              className="bg-church-secondary hover:bg-church-accent text-white px-8 py-3 rounded-md text-lg"
+              asChild
+            >
+              <a href="https://wa.me/5555997046505" target="_blank" rel="noopener noreferrer">
+                Entre em Contato
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>

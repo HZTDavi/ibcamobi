@@ -9,7 +9,7 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-white/90 mb-8">
             Uma comunidade focada em Jesus, vivendo de forma prática os ensinamentos do Senhor
           </p>
-          <div className="space-x-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <Button className="bg-church-primary hover:bg-green-600 text-white px-6 py-3 rounded-md text-lg" asChild>
               <a href="#cultos">Nossos Cultos</a>
             </Button>

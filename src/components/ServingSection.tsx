@@ -59,9 +59,9 @@ const ServingSection = () => {
             </li>
           </ul>
           
-          <div className="text-center">
+          <div className="flex justify-center">
             <Button 
-              className="bg-church-secondary hover:bg-church-accent text-white px-6 py-3 text-lg"
+              className="bg-church-secondary hover:bg-church-accent text-white px-8 py-3 text-lg"
               onClick={handleWhatsAppRedirect}
             >
               Entre em Contato para Servir
