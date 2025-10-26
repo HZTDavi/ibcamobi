@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a href="#" className="flex items-center">
-              <img src="/lovable-uploads/1478a7c6-4024-448a-a9b6-77fb24a14385.png" alt="Igreja Batista em Camobi - Uma grande família" className="h-20 w-auto" />
+              <img src="/lovable-uploads/1478a7c6-4024-448a-a9b6-77fb24a14385.png" alt="Igreja Batista em Camobi - Uma grande família" className="h-16 sm:h-20 w-auto" />
             </a>
           </div>
 
@@ -23,20 +23,20 @@ const Navbar = () => {
           </div>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#inicio" className="text-white hover:text-church-accent transition-colors">
+          <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
+            <a href="#inicio" className="text-sm lg:text-base text-white hover:text-church-accent transition-colors">
               Início
             </a>
-            <a href="#quem-somos" className="text-white hover:text-church-accent transition-colors">
+            <a href="#quem-somos" className="text-sm lg:text-base text-white hover:text-church-accent transition-colors">
               Quem Somos
             </a>
-            <a href="#historia" className="text-white hover:text-church-accent transition-colors">
+            <a href="#historia" className="text-sm lg:text-base text-white hover:text-church-accent transition-colors">
               História
             </a>
-            <a href="#cultos" className="text-white hover:text-church-accent transition-colors">
+            <a href="#cultos" className="text-sm lg:text-base text-white hover:text-church-accent transition-colors">
               Cultos
             </a>
-            <a href="#contato" className="text-white hover:text-church-accent transition-colors">
+            <a href="#contato" className="text-sm lg:text-base text-white hover:text-church-accent transition-colors">
               Contato
             </a>
           </div>

@@ -32,20 +32,20 @@ const SocialProjectsSection = () => {
 
   return <section id="projetos-sociais" className="section-padding bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8 md:mb-12">
           <div className="flex items-center justify-center mb-4">
-            <HandHeart className="h-8 w-8 text-church-secondary mr-3" />
-            <h2 className="text-3xl md:text-4xl font-bold text-church-primary">
+            <HandHeart className="h-6 sm:h-8 w-6 sm:w-8 text-church-secondary mr-2 sm:mr-3" />
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-church-primary">
               Projetos Sociais
             </h2>
           </div>
-          <div className="h-1 w-24 bg-church-secondary mx-auto mb-8"></div>
-          <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
+          <div className="h-1 w-24 bg-church-secondary mx-auto mb-6 md:mb-8"></div>
+          <p className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto mb-6 md:mb-8 px-4">
             Servindo à comunidade com amor e dedicação, levando esperança e transformação.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {projects.map((project, index) => <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow overflow-hidden">
               {project.title === "Jiu Jitsu" ? (
                 <div className="h-64 relative overflow-hidden">
