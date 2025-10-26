@@ -1,16 +1,10 @@
-
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
   return <section id="inicio" className="hero-gradient min-h-[85vh] flex items-center justify-center">
       <div className="container mx-auto px-4 py-20 md:py-28 text-center">
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-center mb-8">
-            <img 
-              src="/lovable-uploads/1478a7c6-4024-448a-a9b6-77fb24a14385.png" 
-              alt="Igreja Batista em Camobi - Uma grande família" 
-              className="h-32 md:h-40 w-auto" 
-            />
+            <img src="/lovable-uploads/1478a7c6-4024-448a-a9b6-77fb24a14385.png" alt="Igreja Batista em Camobi - Uma grande família" className="h42- md:h-40 w-auto" />
           </div>
           <p className="text-xl md:text-2xl text-white/90 mb-8">
             Uma comunidade focada em Jesus, vivendo de forma prática os ensinamentos do Senhor
@@ -27,5 +21,4 @@ const HeroSection = () => {
       </div>
     </section>;
 };
-
 export default HeroSection;
