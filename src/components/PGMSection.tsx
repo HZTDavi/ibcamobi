@@ -38,7 +38,7 @@ const PGMSection = () => {
           </p>
         </div>
         
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto py-[36px]">
           <p className="text-lg mb-8 text-center">
             Confira abaixo os locais onde temos PGMs em Santa Maria. 
             Encontre o grupo mais próximo de você e participe!
@@ -58,7 +58,7 @@ const PGMSection = () => {
                     <p className="text-sm font-medium">{pgm.address}</p>
                     <p className="text-sm text-gray-600">CEP: {pgm.cep}</p>
                   </div>
-                  <Button onClick={() => handleWhatsAppContact(pgm.name)} className="w-full bg-green-600 hover:bg-green-700 text-white py-3">
+                  <Button onClick={() => handleWhatsAppContact(pgm.name)} className="w-full bg-green-600 hover:bg-green-700 text-white py-[10px] my-[73px]">
                     <Phone className="h-4 w-4 mr-2" />
                     Contatar via WhatsApp
                   </Button>
