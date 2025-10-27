@@ -53,7 +53,7 @@ const PGMSection = () => {
                   </CardTitle>
                   
                 </CardHeader>
-                <CardContent className="flex flex-col h-full">
+                <CardContent className="flex flex-col h-full py-[5px] my-0">
                   <div className="space-y-2 mb-4 flex-grow">
                     <p className="text-sm font-medium">{pgm.address}</p>
                     <p className="text-sm text-gray-600">CEP: {pgm.cep}</p>
